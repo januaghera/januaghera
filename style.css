@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+h1 , h2{
+    margin: 0;
+    color: burlywood;
+}
+
+.main-add h2{
+   margin: 10px 0px;
+   background-color: beige;
+   border-radius: 2px;
+   padding: 4px;
+}
+
+.main-edit h2{
+    margin: 10px 0px;
+    background-color: beige;
+    border-radius: 2px;
+    padding: 4px;
+}
+
+.view-form{
+    padding: 10px;
+    max-width: 500px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.view-form h2{
+    background-color: beige;
+    border-radius: 2px;
+    padding: 4px;
+    margin: 10px 0px;
+}
+
+.student-table{
+    margin: 10px 0px;
+}
+
+.student-table h2{
+    margin: 10px 0px;
+}
+
+/*header{
+    background : url(../image/background.jpg)
+}*/
+
+header h1{
+    text-align: center;
+    color: aliceblue;
+    padding-left: 528px;
+    padding-right: 528px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 4px solid gray;
+    position: fixed;
+}
+
+/* crud operation */
+
+.crud-form{
+    display: flex;
+    justify-content: space-around;
+}
+
+label{
+    display: block;
+    color: black;
+}
+
+.addform{
+    padding: 10px;
+    max-width: 500px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.editform{
+    padding: 10px;
+    max-width: 500px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.addinputs{
+    margin: 9px 0px;
+    width: 100%;
+}
+
+.inputs{
+    padding: 9px;
+    width: 100%;
+}
+
+.inputs:focus{
+    outline: 0;
+}
+
+input[type='submit']{
+    width: 100%;
+    border: 0;
+    padding: 10px;
+    background-color: beige;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+input[type='submit']:hover{
+    background-color: skyblue;
+}
+
+.text-area{
+    resize: none;
+
+}
+
+.text-area:focus{
+    outline: 0;
+}
+
+.addinputs label{
+    margin: 5px 0;
+}
+
+.main-back{
+    /*background-color: skyblue;*/
+    padding: 100px;
+    background: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
